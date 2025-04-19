@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color:rgb(224, 211, 197);
+    margin: 0;
+}
+
+#siteHeader{
+    background-color:rgb(18, 52, 88);
+    display: block;
+    padding: 20px;
+    color: rgb(212, 201, 190);
+}
+
+#reviewTable{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tableEntry{
+    text-aligh: center;
+    
+}
+
+.thumbnail{
+    height: 128px;
+}
+
+
+
+
+
