@@ -14,13 +14,13 @@ body{
     color: rgb(212, 201, 190);
 }
 
-#reviewTable{
-    width: 50%;
+.reviewTable{
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#tableEntry{
+.tableEntry{
     text-aligh: center;
     
 }
