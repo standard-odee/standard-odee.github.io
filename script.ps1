@@ -1,0 +1,57 @@
+
+$filecontent = '<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+
+    <div id="siteHeader">
+        <header>
+            <h1>Anime Reviews and DVD Covers</h1>
+        </header>
+    </div>
+    
+
+<body>
+    
+    <h3><a href="../index.html"> Home</a></h3>
+    
+    <div class="twoImages">
+    <img src="" class="reviewImage">  
+    <img src="" class="reviewImage">
+    </div>
+
+    <article>
+        
+        <p>
+            Score: /5
+        </p>   
+        
+        <p>
+        
+        </p> 
+        
+        <p>
+        
+
+        
+        
+        </p>    
+
+        <footer>Published: </footer>
+
+    </article>
+
+
+</body>
+
+ 
+
+</html>'
+
+$folders = Get-ChildItem -directory;
+ForEach ($folder in $folders)
+{
+    $file = New-Item -type File -name ($folder.BaseName +{.html}) -path ("./" + $folder.BaseName) -value $filecontent;
+}
