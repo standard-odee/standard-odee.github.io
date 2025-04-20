@@ -15,7 +15,7 @@ reviewObjects = [
 
     {
         "enName": "From the New World", 
-        "jpName": "", 
+        "jpName": "Shin Sekai Yori", 
         "jacket":  "From the New World/From the New World Front.jpg",
         "inside": "From the New World/Page 2.jpg",
     },
